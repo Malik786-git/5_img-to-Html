@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+}
+html{
+  font-size: 62.5%;
+}
+.wrapped{
+  background: url('./img/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+.heroContent{
+
+}
+/*  */
+.navbar-light .navbar-toggler {
+  color: yellow !important;
+  border-color: yellow !important;
+}
+.row{
+  margin-right: 0px;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  color: rgb(255, 217, 0) !important;
+  font-weight: 700 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.navbar{
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+}
+
+.navbar-nav li{
+
+ margin: 0 15px !important;
+ font-weight: bold;
+}
+.navbar-nav li a{
+  color:#fff !important;
+}
+.hero_section{
+ margin-top:10rem ;
+ padding-left: 10rem;
+
+}
+.hero_section h1{
+  font-size: 3rem;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgb(255, 255, 255);
+}
+.hero_section p{
+  font-size: 1.3rem;
+ color: rgb(240, 240, 240);
+ padding-top: 2rem;
+}
+.LEARN-BTN{
+  margin-top: 4rem !important;
+  background: rgb(250, 209, 27);
+  border-radius: 2rem;
+  font-weight: bold;
+  height: 3.2rem;
+  width: 12rem;
+  color: #000;
+  
+}
+.col-12{
+  padding-right: 0px !important;
+}
+.main_img{
+  margin-top: 8rem !important;
+  max-width: 45rem;
+  text-align: center;
+  margin-left: 100px;
+}
+figure{
+  clip-path: circle(400px at 61% 93%);
+  background: rgb(207, 183, 252);
+  
+}
+.foot{
+  background: rgb(158, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 20vh; */
+}
+.footer svg{
+ position: absolute;
+ bottom: 0%;
+}
+@media screen and (max-width:998px) {
+.navbar-collapse{
+  text-align: center;
+}
+figure{
+  clip-path:none;
+  background: none;
+
+}
+.main_img{
+  margin-left: 0px;
+}
+.signUp{
+ margin: 0 auto;
+}
+}
+@media screen and (max-width:768px) {
+  html{
+    font-size: 62.5%;
+  }
+  .main_img{
+    margin-top: 5rem !important;
+    max-width: 40rem;
+    
+  }
+  .search{
+    margin: 0 auto;
+  }
+
+
+}
+@media screen and (max-width:576px) {
+  html{
+    font-size: 52.5%;
+  }
+  .hero_section{
+ 
+    padding-left: 0rem;
+   
+   }
+}

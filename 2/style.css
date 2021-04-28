@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.heroContent{
+  box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+}
+.heroContent .row {
+  margin-right: 0px !important;
+
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(66, 255, 246, 0.363);
+  color: rgb(18, 140, 177) !important;
+  width: 15rem;
+  text-align: right;
+  padding-right: 1rem;
+  /* display: block; */
+  margin-left: -24px;
+
+}
+.navbar{
+  font-size: 1.5rem;
+
+}
+.signUp{
+  background: rgb(207, 183, 252);
+  border-radius: 2rem;
+  font-weight: bold;
+  height: 3rem;
+}
+.navbar-nav li{
+ /* padding: 0 10px !important; */
+ margin: 0 15px !important;
+ /* margin-left: 5px !important;
+ margin-right: 5px !important; */
+ font-weight: bold;
+}
+.navbar-nav li a{
+  color: rgb(18, 140, 177) !important;
+}
+.hero_section{
+ margin-top:10rem ;
+ padding-left: 10rem;
+
+}
+.hero_section h1{
+  font-size: 6rem;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgb(18, 140, 177);
+}
+.hero_section p{
+  font-size: 1.3rem;
+ color: gray;
+ padding-top: 2rem;
+}
+.LEARN-BTN{
+  margin-top: 4rem !important;
+  background: rgb(207, 183, 252);
+  border-radius: 2rem;
+  font-weight: bold;
+  height: 3.2rem;
+  width: 12rem;
+  color: #fff;
+  
+}
+.col-12{
+  padding-right: 0px !important;
+}
+.main_img{
+  margin-top: 8rem !important;
+  max-width: 45rem;
+  text-align: center;
+  margin-left: 100px;
+}
+figure{
+  clip-path: circle(400px at 61% 93%);
+  background: rgb(207, 183, 252);
+  
+}
+.search{
+  background: rgb(207, 183, 252);
+  height: 30px;
+  line-height: 30px;
+  width: 130px;
+  border-radius: 30px;
+ 
+}
+.search i{
+  border-right: 2px solid #fff;
+  padding-right:7px;
+  color: #fff;
+  padding-left: 10px;
+}
+.search input{
+  width: 60%;
+  height: 25px;
+  border: none;
+  outline: none;
+  background: rgb(207, 183, 252);
+  color: #fff;
+}
+::placeholder{
+  color: #fff;
+}
+@media screen and (max-width:998px) {
+.navbar-collapse{
+  text-align: center;
+}
+figure{
+  clip-path:none;
+  background: none;
+
+}
+.main_img{
+  margin-left: 0px;
+}
+.signUp{
+ margin: 0 auto;
+}
+}
+@media screen and (max-width:768px) {
+  html{
+    font-size: 62.5%;
+  }
+  .main_img{
+    margin-top: 5rem !important;
+    max-width: 40rem;
+    
+  }
+  .search{
+    margin: 0 auto;
+  }
+
+
+}
+@media screen and (max-width:576px) {
+  html{
+    font-size: 52.5%;
+  }
+  .hero_section{
+ 
+    padding-left: 0rem;
+   
+   }
+}
